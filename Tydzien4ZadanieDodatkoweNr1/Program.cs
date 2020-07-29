@@ -11,8 +11,8 @@ namespace Tydzien4ZadanieDodatkoweNr1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Podaj ciąg dowolnych liczb całkowitych odzielonych spacją");
-            
+            Console.WriteLine("Podaj ciąg dowolnych liczb całkowitych odzielonych spacją :");
+            // jak do zmiennej myList wrzucic to co poda użytkownik
             var myList = new List<int>();
             var min = myList.Min();
             var max = myList.Max();
